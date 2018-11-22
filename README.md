@@ -12,3 +12,6 @@ A simple blockchain-based crypto coin in Javascript
 
 # Mining difficulty
 Mining difficulty can be set by changing the value of ```this.diff``` inside the ```Blockchain``` class
+
+# Note
+This is currently not an actual working blockchain, you can use this as an educational purposes.
