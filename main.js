@@ -23,7 +23,7 @@ class Block
     mineBlock(diff)
     {
         // Begin the hash with a certain amount of zeros
-        while( this.hash.substring(0,diff) !== Array(diff+1).join("0") )
+        while( this.hash.toString().substring(0,diff) !== Array(diff+1).join("0") )
         {
             // Increment as long as the has doesn't start with enough zeros
             // This also prevents infinite while loop
